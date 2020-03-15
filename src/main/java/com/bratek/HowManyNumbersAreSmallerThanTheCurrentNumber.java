@@ -1,7 +1,7 @@
 package com.bratek;
 
 public class HowManyNumbersAreSmallerThanTheCurrentNumber {
-    public int[] smallerNumbersThanCurrent(int[] nums) {
-
+    public static int[] smallerNumbersThanCurrent(int[] nums) {
+        return new int[] {1};
     }
 }
