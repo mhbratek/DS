@@ -10,8 +10,8 @@ class FindNumbersWithEvenNumberOfDigitsTest {
     @Test
     public void shouldReturnNumberOfEvenDigits() {
         Assertions.assertEquals(
-                FindNumbersWithEvenNumberOfDigits.findNumbers(new int[]{12, 345, 2, 6, 7896}),
-                0
+                2,
+                FindNumbersWithEvenNumberOfDigits.findNumbers(new int[]{12, 345, 2, 6, 7896})
         );
     }
 }
