@@ -9,7 +9,7 @@ class FindNUniqueIntegersSumUpToZeroTest {
     @Test
     public void shouldReturnArrayWhichSumUpToZero() {
         Assertions.assertArrayEquals(
-                new int[] {0, 1, -1, 2, -2},
+                new int[] {-4, -2, 0, 2, 4},
                 FindNUniqueIntegersSumUpToZero.sumZero(5)
         );
     }
